@@ -183,10 +183,10 @@ nav ul li a {
     border-bottom: 1px solid transparent; }
 
 #map {
-  height: 33vh; }
+  height: 50vh; }
 
 .team {
-  background-color: white;
+  background-color: #e6f0ff;
   padding: 2rem;
   display: -webkit-box;
   display: -moz-box;
@@ -204,13 +204,52 @@ nav ul li a {
   flex-wrap: wrap; }
 
 .team__member {
-  background-color: #f9f9f9;
-  width: 350px;
-  padding: 1rem;
-  margin: 1rem; }
+  width: 50%;
+  padding: 2rem;
+  margin: 1rem 0; }
+  .team__member h2, .team__member h4, .team__member p {
+    color: #013588;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5); }
   .team__member h4 {
-    font-weight: 400; }
+    font-weight: 400;
+    font-size: 1.1rem; }
   .team__member p {
-    padding: 0.5rem 0 0 0; }
+    padding: 0.5rem 0 0 0;
+    font-size: 1.2rem;
+    font-weight: 100; }
+  @media only screen and (max-width: 768px) {
+    .team__member {
+      width: 100%; } }
+
+.aboutus {
+  padding: 4rem; }
+  .aboutus h2 {
+    color: #013588;
+    font-size: 2.5rem; }
+  .aboutus p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding-top: 1rem; }
+
+.offer {
+  padding: 4rem; }
+
+.offer h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #013588;
+  padding-bottom: 2rem; }
+
+.offer h4 {
+  font-weight: 300;
+  font-size: 1.7rem; }
+
+.offer p {
+  font-weight: 100;
+  font-size: 1.15rem; }
+
+.offer div {
+  padding: 2rem; }
 
 /*# sourceMappingURL=main.css.map */
