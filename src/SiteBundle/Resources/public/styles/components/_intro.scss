@@ -28,7 +28,6 @@
   i {
     font-size: 5.5rem;
     color: $blue;
-    padding: 3rem;
     text-shadow: 1px 1px #fff;
     z-index: 1;
   }
@@ -37,12 +36,16 @@
 
 
 .intro__text {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
   z-index: 1;
   h1 {
-    display: inline;
+    display: inline-block;
     color: $blue;
     font-size: 2.5rem;
     text-shadow: 1px 1px #fff;
+    line-height: 0.9;
+    padding: 1rem;
 
     .small {
       font-size: 1.8rem;

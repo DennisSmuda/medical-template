@@ -14,6 +14,8 @@
   width: 50%;
   padding: 2rem;
   margin: 1rem 0;
+  border-top: 1px solid #fff;
+  
 
   h2, h4, p {
     color: $blue;
@@ -33,5 +35,6 @@
 
   @include max-screen(768px) {
     width: 100%;
+    text-align: center;
   }
 }

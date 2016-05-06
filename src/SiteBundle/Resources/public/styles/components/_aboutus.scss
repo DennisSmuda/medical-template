@@ -2,15 +2,20 @@
 .aboutus {
   padding: 4rem;
 
+  &__inner {
+    width: 60%;
+    margin: auto;
+  }
+
   h2 {
     color: $blue;
     font-size: 2.5rem;
   }
 
   p {
-    font-weight: 300;
-    font-size: 1.2rem;
     font-weight: 100;
     padding-top: 1rem;
+    font-size: 1.15rem;
+    line-height: 1.6;
   }
 }

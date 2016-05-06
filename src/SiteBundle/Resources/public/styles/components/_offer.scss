@@ -2,7 +2,10 @@
 .offer {
   padding: 4rem;
 
-
+  &__inner {
+    width: 60%;
+    margin: auto;
+  }
 }
 
 
@@ -16,11 +19,13 @@
 .offer h4 {
   font-weight: 300;
   font-size: 1.7rem;
+  padding-bottom: 1rem;
 }
 
 .offer p {
   font-weight: 100;
   font-size: 1.15rem;
+  line-height: 1.6;
 }
 
 .offer div {
