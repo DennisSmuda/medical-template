@@ -9,8 +9,18 @@
 
 
 .team__member {
-  @include flex(1);
 
-  min-width: 350px;
-  padding: 1rem 0;
+  background-color: #f9f9f9;
+
+  width: 350px;
+  padding: 1rem;
+  margin: 1rem;
+
+  h4 {
+    font-weight: 400;
+  }
+
+  p {
+    padding: 0.5rem 0 0 0;
+  }
 }

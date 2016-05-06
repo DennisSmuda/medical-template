@@ -204,14 +204,13 @@ nav ul li a {
   flex-wrap: wrap; }
 
 .team__member {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  box-flex: 1;
-  -webkit-flex: 1;
-  -moz-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  min-width: 350px;
-  padding: 1rem 0; }
+  background-color: #f9f9f9;
+  width: 350px;
+  padding: 1rem;
+  margin: 1rem; }
+  .team__member h4 {
+    font-weight: 400; }
+  .team__member p {
+    padding: 0.5rem 0 0 0; }
 
 /*# sourceMappingURL=main.css.map */
