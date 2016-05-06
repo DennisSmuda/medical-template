@@ -3,8 +3,16 @@
 @import '../node_modules/bourbon-neat/app/assets/stylesheets/neat';
 @import '../node_modules/sass-mediaqueries/media-queries';
 
+@import 'base/variables';
 @import 'base/core';
 
+header {
+  height: $nav-height;
+}
 
+
+@import 'components/intro';
 @import 'components/navi';
+@import 'components/map';
+@import 'components/team';
 

@@ -1,0 +1,16 @@
+
+.team {
+  background-color: white ;
+  padding: 2rem;
+  @include display(flex);
+  @include flex-wrap(wrap);
+
+}
+
+
+.team__member {
+  @include flex(1);
+
+  min-width: 350px;
+  padding: 1rem 0;
+}
