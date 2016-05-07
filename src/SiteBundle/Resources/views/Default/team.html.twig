@@ -1,0 +1,33 @@
+{% extends 'SiteBundle:Default:base.html.twig' %}
+
+
+
+{% block body %}
+
+  <header>
+    <div class="header__top">
+      <div class="header__location"><i class="fa fa-location-arrow"></i> Auf dem Graben 2, 45657 Recklinghausen</div>
+      <div class="header__phone"><i class="fa fa-phone"></i> 02361-4049830</div>
+      <div class="header__mail"><i class="fa fa-mail"></i> <a href="mailto:kontakt@pt-praxen.de">kontakt@pt-praxen.de</a></div>
+    </div>
+    <div class="header__bottom">
+
+      <nav>
+        <ul>
+          <li><a class="" href="{{ path('homepage') }}">Home</a></li>
+          <li><a class="active" href="{{ path('site_team') }}">Team</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="intro" style="background-image: url('{{ asset('bundles/site/images/team.jpg') }}')">
+    <div class="img-overlay"></div>
+    <div class="intro__text">
+      <i class="fa fa-user-md"></i>
+      <h1>Team</h1>
+    </div>
+  </section>
+
+
+{% endblock body %}

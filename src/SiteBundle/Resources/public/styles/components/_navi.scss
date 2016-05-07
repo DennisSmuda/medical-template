@@ -69,6 +69,10 @@ nav {
           color: $blue;
           border-bottom: 1px solid transparent;
         }
+
+        &.active {
+          font-weight: 600;
+        }
       }
     }
   }
