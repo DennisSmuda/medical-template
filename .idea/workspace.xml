@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b453f1eb-100e-4a34-a547-b356d2299c7b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_people.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/6d0eaa992bed7466594d06ab514065f54c69fd6a/_core.scssc" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/6d0eaa992bed7466594d06ab514065f54c69fd6a/_core.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/6d0eaa992bed7466594d06ab514065f54c69fd6a/_variables.scssc" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/6d0eaa992bed7466594d06ab514065f54c69fd6a/_variables.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/7fcaf7cba18cd682578ae4816e67a8db5163696b/main.scssc" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/7fcaf7cba18cd682578ae4816e67a8db5163696b/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/b7afff7329fb9d5622a335eb16e5cd8be634788c/_navi.scssc" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/b7afff7329fb9d5622a335eb16e5cd8be634788c/_navi.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/b7afff7329fb9d5622a335eb16e5cd8be634788c/_team.scssc" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/b7afff7329fb9d5622a335eb16e5cd8be634788c/_team.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/src/index.js" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_core.scss" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_variables.scss" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_navi.scss" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_navi.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_offer.scss" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_offer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_team.scss" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_team.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.css" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.css.map" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.scss" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/base.html.twig" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig" />
     </list>
     <ignored path="photo-site.iws" />
@@ -82,12 +68,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_core.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_core.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_core.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3272727">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state vertical-scroll-proportion="-11.259259">
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="team.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14431818">
+              <caret line="42" column="56" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="57" />
+              <folding>
+                <element signature="e#12#45#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,11 +135,11 @@
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/base.html.twig" />
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/src/index.js" />
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig" />
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_people.scss" />
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_offer.scss" />
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_navi.scss" />
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_core.scss" />
+        <option value="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig" />
       </list>
     </option>
   </component>
@@ -597,7 +595,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462620238510</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Responsive Text test&#10;Implemented Tabs for staff people">
+      <created>1462632986961</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1462632986961</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -645,7 +649,8 @@
     <MESSAGE value="Team page added" />
     <MESSAGE value="Added Footer&#10;Disabled GoogleMaps defaults:&#10;  no scrolls, event on marker click which opens new googlemaps tab" />
     <MESSAGE value="footer update header change" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer update header change" />
+    <MESSAGE value="Responsive Text test&#10;Implemented Tabs for staff people" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive Text test&#10;Implemented Tabs for staff people" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -903,33 +908,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44886363">
-          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
-          <folding>
-            <element signature="e#12#45#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_intro.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.481482">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5272727">
-          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-          <folding>
-            <element signature="e#12#45#0#Twig" expanded="true" />
-            <element signature="e#732#808#0#HTML" expanded="true" />
-            <element signature="e#2547#2574#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,11 +940,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13636364">
+          <caret line="113" column="10" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+          <folding>
+            <element signature="e#12#45#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_core.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3272727">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state vertical-scroll-proportion="-11.259259">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14431818">
+          <caret line="42" column="56" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="57" />
+          <folding>
+            <element signature="e#12#45#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
