@@ -1,0 +1,16 @@
+
+footer {
+  background-color: $blue;
+  color: white;
+  padding: 4rem;
+  font-weight: 100;
+  line-height: 1.5;
+
+
+  @include display(flex);
+  @include justify-content(space-between);
+
+  a {
+    color: white;
+  }
+}
