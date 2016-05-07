@@ -5,6 +5,14 @@
   &__inner {
     width: 60%;
     margin: auto;
+
+    @include max-screen(640px) {
+      width: 80%;
+    }
+
+    @include max-screen(480px) {
+      width: 100%;
+    }
   }
 }
 
@@ -28,6 +36,3 @@
   line-height: 1.6;
 }
 
-.offer div {
-  padding: 2rem;
-}

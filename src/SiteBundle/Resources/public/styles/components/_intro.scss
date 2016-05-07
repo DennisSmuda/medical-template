@@ -2,6 +2,7 @@
 .intro {
   position: relative;
   width: 100vw;
+  overflow-x: hidden;
   height: calc(100vh - #{$nav-height});
   background-size: cover;
   background-position: center 0;
@@ -25,12 +26,7 @@
     height: 100%;
   }
 
-  i {
-    font-size: 5.5rem;
-    color: $blue;
-    text-shadow: 1px 1px #fff;
-    z-index: 1;
-  }
+
 }
 
 
@@ -39,6 +35,19 @@
   padding: 2rem;
   background-color: rgba(255, 255, 255, 0.5);
   z-index: 1;
+
+  @include display(flex);
+
+
+  i {
+    font-size: 5.5rem;
+    color: $blue;
+    text-shadow: 1px 1px #fff;
+    z-index: 1;
+    @include align-self(center);
+  }
+
+
   h1 {
     display: inline-block;
     color: $blue;
