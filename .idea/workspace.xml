@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b453f1eb-100e-4a34-a547-b356d2299c7b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/7fcaf7cba18cd682578ae4816e67a8db5163696b/main.scssc" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/7fcaf7cba18cd682578ae4816e67a8db5163696b/main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/6d0eaa992bed7466594d06ab514065f54c69fd6a/_core.scssc" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/.sass-cache/6d0eaa992bed7466594d06ab514065f54c69fd6a/_core.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_core.scss" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_footer.scss" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.css" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.css.map" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.scss" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/base.html.twig" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/base.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig" afterPath="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig" />
     </list>
     <ignored path="photo-site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,20 +54,21 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.296296">
-              <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+            <state vertical-scroll-proportion="-1.7777778">
+              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
               <folding>
                 <element signature="e#12#45#0#Twig" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#footer#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.148148">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3090909">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -93,15 +94,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="team.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4181818">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state vertical-scroll-proportion="-5.3333335">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding>
                 <element signature="e#12#45#0#Twig" expanded="true" />
                 <element signature="e#732#808#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_core.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_core.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.444445">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,8 +161,6 @@
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_core.scss" />
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_variables.scss" />
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_map.scss" />
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_team.scss" />
@@ -162,9 +171,11 @@
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_navi.scss" />
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_intro.scss" />
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/main.scss" />
-        <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_footer.scss" />
-        <option value="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig" />
+        <option value="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_core.scss" />
+        <option value="$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_footer.scss" />
       </list>
     </option>
   </component>
@@ -406,6 +417,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photo-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website-dummy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -544,7 +589,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462616217552</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Footer&#10;Disabled GoogleMaps defaults:&#10;  no scrolls, event on marker click which opens new googlemaps tab">
+      <created>1462617517428</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1462617517428</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -611,7 +662,8 @@
     <MESSAGE value="Small refactor - inhalte schöner gemacht" />
     <MESSAGE value="Basic responsive.." />
     <MESSAGE value="Team page added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Team page added" />
+    <MESSAGE value="Added Footer&#10;Disabled GoogleMaps defaults:&#10;  no scrolls, event on marker click which opens new googlemaps tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Footer&#10;Disabled GoogleMaps defaults:&#10;  no scrolls, event on marker click which opens new googlemaps tab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -779,14 +831,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_core.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07272727">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10909091">
@@ -843,14 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.075">
-          <caret line="21" column="108" selection-start-line="21" selection-start-column="108" selection-end-line="21" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SiteBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25454545">
@@ -893,32 +929,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_footer.scss">
+    <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.148148">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.18181819">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#12#45#0#Twig" expanded="true" />
+            <element signature="e#732#808#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/base/_core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.444445">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.296296">
-          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+        <state vertical-scroll-proportion="-1.7777778">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
           <folding>
             <element signature="e#12#45#0#Twig" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#footer#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/views/Default/team.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/SiteBundle/Resources/public/styles/components/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4181818">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="e#12#45#0#Twig" expanded="true" />
-            <element signature="e#732#808#0#HTML" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.3090909">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

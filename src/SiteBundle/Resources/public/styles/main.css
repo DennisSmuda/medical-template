@@ -16,6 +16,9 @@ html {
 body {
   background-color: white; }
 
+a:hover {
+  text-decoration: none; }
+
 header {
   height: 100px; }
 
@@ -302,29 +305,33 @@ nav ul li a {
   font-size: 1.15rem;
   line-height: 1.6; }
 
-footer {
+.footer {
   background-color: #013588;
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
   padding: 4rem;
   font-weight: 100;
-  line-height: 1.5;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -moz-box-pack: justify;
-  box-pack: justify;
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  -ms-justify-content: space-between;
-  -o-justify-content: space-between;
-  justify-content: space-between;
-  -ms-flex-pack: justify; }
-  footer a {
-    color: white; }
+  line-height: 1.5; }
+  .footer__row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify; }
+  .footer a {
+    color: rgba(255, 255, 255, 0.7); }
+  .footer hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    margin: 2rem 0; }
 
 /*# sourceMappingURL=main.css.map */

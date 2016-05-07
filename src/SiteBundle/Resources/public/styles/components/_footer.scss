@@ -1,16 +1,24 @@
 
-footer {
+.footer {
   background-color: $blue;
-  color: white;
+  color: rgba(white, 0.7);
   padding: 4rem;
   font-weight: 100;
   line-height: 1.5;
 
 
-  @include display(flex);
-  @include justify-content(space-between);
+  &__row {
+    @include display(flex);
+    @include justify-content(space-between);
+  }
+
 
   a {
-    color: white;
+    color: rgba(white, 0.7);
+  }
+
+  hr {
+    border-bottom: 1px solid rgba(white, 0.7);
+    margin: 2rem 0;
   }
 }
