@@ -14,7 +14,8 @@ body {
 }
 
 
-a {
+a, .link {
+  cursor: pointer;
   text-decoration: underline;
 
   &:hover {
