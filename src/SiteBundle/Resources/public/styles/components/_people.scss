@@ -1,0 +1,68 @@
+
+.people {
+
+
+
+  hr {
+    border-bottom: 1px solid rgba($black, 0.2);
+    margin: 2rem 0;
+  }
+
+  table {
+    margin: 1rem 0;
+
+    width: 100%;
+  }
+}
+
+
+
+
+/* Tab Code */
+ul#tabs {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  background-color: #104eb1;
+
+  @include display(flex);
+  @include justify-content(center);
+
+  @include max-screen(640px) {
+    @include flex-direction(column);
+  }
+}
+ul#tabs li {
+  display: inline-block;
+  background-color: #104eb1;
+  padding: 2rem;
+  color: rgba($white, 0.8);
+  cursor: pointer;
+
+  @include transition(all 0.3s);
+
+  @include max-screen(640px) {
+    padding: 1rem;
+  }
+}
+
+ul#tabs li:hover {
+  color: $white;
+  background-color: $blue;
+}
+ul#tabs li.active {
+  color: $white;
+  background-color: $blue;
+}
+ul#tab {
+  list-style-type: none;
+  margin: 0;
+  padding: 4rem;
+  min-height: 500px;
+}
+ul#tab li {
+  display: none;
+}
+ul#tab li.active {
+  display: block;
+}

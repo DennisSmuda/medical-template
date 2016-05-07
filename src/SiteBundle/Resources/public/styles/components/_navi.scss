@@ -13,6 +13,7 @@ header {
   @include display(flex);
   @include flex-direction(row);
   @include justify-content(flex-end);
+  @include align-items(center);
   background-color: #f7f7f7;
 
   font-weight: 100;
@@ -40,23 +41,22 @@ header {
 
 .header__bottom {
   @include flex(1);
-  @include display(flex);
 }
 
 .header__bottom nav {
+  height: 100%;
+  width: 100%;
   ul {
+    height: 100%;
+    @include display(flex);
+    @include justify-content(flex-start);
+    @include align-items(center);
+
 
     li {
       display: inline-block;
-      padding: 0.8rem 0 0 2rem;
-    }
-  }
-}
+      padding-left: 2rem;
 
-
-nav {
-  ul {
-    li {
       a {
         font-size: 1.2rem;
         color: rgba($blue, 0.7);
