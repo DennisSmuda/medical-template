@@ -56,6 +56,10 @@
     line-height: 0.9;
     padding: 1rem;
 
+    &.intro__team {
+      line-height: initial;
+    }
+
     .small {
       font-size: 1.8rem;
     }

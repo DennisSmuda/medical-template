@@ -1,0 +1,25 @@
+{
+  "name": "website-dummy",
+  "version": "1.0.0",
+  "description": "Standard Boilerplate for a Symfony Project ==========================================",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/SiteBundle/Resources/public/styles/main.scss:src/SiteBundle/Resources/public/styles/main.css -w",
+    "server": "php bin/console server:run",
+    "app": "npm run build | npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennisSmuda/medical-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DennisSmuda/medical-template/issues"
+  },
+  "homepage": "https://github.com/DennisSmuda/medical-template#readme"
+}

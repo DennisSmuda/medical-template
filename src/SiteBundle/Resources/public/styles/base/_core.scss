@@ -10,11 +10,13 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: $white;
 }
 
 
 a {
+  text-decoration: underline;
+
   &:hover {
     text-decoration: none;
   }

@@ -14,10 +14,12 @@ html {
   font-size: 15px; }
 
 body {
-  background-color: white; }
+  background-color: #fff; }
 
-a:hover {
-  text-decoration: none; }
+a {
+  text-decoration: underline; }
+  a:hover {
+    text-decoration: none; }
 
 html {
   font-size: 15px; }
@@ -118,6 +120,8 @@ header {
     text-shadow: 1px 1px #fff;
     line-height: 0.9;
     padding: 1rem; }
+    .intro__text h1.intro__team {
+      line-height: initial; }
     .intro__text h1 .small {
       font-size: 1.8rem; }
 
@@ -203,16 +207,10 @@ header {
       text-decoration: none; }
 
 .header__bottom {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  box-flex: 1;
-  -webkit-flex: 1;
-  -moz-flex: 1;
-  -ms-flex: 1;
-  flex: 1; }
+  height: 60px; }
 
 .header__bottom nav {
-  height: 100%;
+  height: 50px;
   width: 100%; }
   .header__bottom nav ul {
     height: 100%;
@@ -307,7 +305,7 @@ header {
     box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.1); }
 
 .aboutus {
-  padding: 4rem; }
+  padding: 10rem 4rem; }
   .aboutus__inner {
     width: 60%;
     margin: auto; }
@@ -327,7 +325,7 @@ header {
     line-height: 1.6; }
 
 .offer {
-  padding: 4rem; }
+  padding: 10rem 4rem; }
   .offer__inner {
     width: 60%;
     margin: auto; }
@@ -457,5 +455,8 @@ ul#tab li {
 
 ul#tab li.active {
   display: block; }
+
+.imprint h3 {
+  padding-top: 2rem; }
 
 /*# sourceMappingURL=main.css.map */
