@@ -1,15 +1,19 @@
 
 .team {
-
   background-color: #e6f0ff ;
-  padding: 2rem;
+  padding: 4rem;
+}
+
+.team__inner {
+  max-width: 800px;
+  margin: 0 auto;
+
   @include display(flex);
   @include flex-wrap(wrap);
-
 }
 
 
-.team__member {
+.team.cards .team__member {
   width: 50%;
   padding: 2rem;
   text-align: center;
@@ -39,7 +43,7 @@
   @include max-screen(768px) {
     width: 100%;
   }
-  
+
   &:hover {
     background-color: #fff;
     box-shadow: 0 6px 18px 0 rgba(black, 0.1);

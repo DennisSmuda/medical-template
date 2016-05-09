@@ -1,7 +1,5 @@
 {% extends 'SiteBundle:Default:base.html.twig' %}
 
-
-
 {% block body %}
 
   <header>
@@ -44,69 +42,67 @@
     </div>
   </section>
 
-  <section class="team">
+  <section class="team cards">
+    <div class="team__inner">
 
-    <div class="team__member">
-      <img src="" alt="">
-      <h2>Dr. med. Kirsten Behrendt</h2>
-      <h4>Ärztin für Psychiatrie und Psychotherapie</h4>
-      <p>
-        <i class="fa fa-phone"></i> 02361-404 98 33 <br>
-        <i class="fa fa-envelope-o"></i> <a href="mailto:#">behrendt@pr-praxen.de</a>
-      </p>
-      <p>
-      <span class="small">Persönliche Telefonsprechstunde:</span><br>
-        montags von 8.30 h bis 9.00 h
-      </p>
+      <div class="team__member">
+        <img src="" alt="">
+        <h2>Dr. med. Kirsten Behrendt</h2>
+        <h4>Ärztin für Psychiatrie und Psychotherapie</h4>
+        <p>
+          <i class="fa fa-phone"></i> 02361-404 98 33 <br>
+          <i class="fa fa-envelope-o"></i> <a href="mailto:#">behrendt@pt-praxen.de</a>
+        </p>
+        <p>
+        <span class="small">Persönliche Telefonsprechstunde:</span><br>
+          montags von 8.30 h bis 9.00 h
+        </p>
+      </div>
+
+      <div class="team__member">
+        <img src="" alt="">
+        <h2>Dr. med. Monika Blank</h2>
+        <h4>Ärztin für Psychiatrie und Psychotherapie</h4>
+        <p>
+          <i class="fa fa-phone"></i> 02361-404 98 55 <br>
+          <i class="fa fa-envelope-o"></i> <a href="mailto:#">blank@pt-praxen.de</a>
+        </p>
+        <p>
+        <span class="small">Persönliche Telefonsprechstunde:</span><br>
+          montags von 8.30 h bis 9.00 h
+        </p>
+      </div>
+
+      <div class="team__member">
+        <img src="" alt="">
+        <h2>Dipl.-Psych. Sylvia Priebe</h2>
+        <h4>Psychologische Psychotherapeutin</h4>
+        <p>
+          <i class="fa fa-phone"></i> 02361-404 98 40 <br>
+          <i class="fa fa-envelope-o"></i> <a href="mailto:#">priebe@pt-praxen.de</a>
+        </p>
+        <p>
+        <span class="small">Persönliche Telefonsprechstunde:</span><br>
+          montags von 12.00 h bis 13.00 h
+        </p>
+      </div>
+
+      <div class="team__member">
+        <img src="" alt="">
+        <h2>Dipl.-Psych. Charlotte Lorenz</h2>
+        <h4>Psychologische Psychotherapeutin</h4>
+        <p>
+          <i class="fa fa-phone"></i> 02361-404 98 43 <br>
+          <i class="fa fa-envelope-o"></i> <a href="mailto:#">lorenz@pt-praxen.de</a>
+        </p>
+        <p>
+        <span class="small">Persönliche Telefonsprechstunde:</span><br>
+          montags von 8.30 h bis 9.00 h
+        </p>
+      </div>
+
     </div>
-
-    <div class="team__member">
-      <img src="" alt="">
-      <h2>Dr. med. Kirsten Behrendt</h2>
-      <h4>Ärztin für Psychiatrie und Psychotherapie</h4>
-      <p>
-        <i class="fa fa-phone"></i> 02361-404 98 33 <br>
-        <i class="fa fa-envelope-o"></i> <a href="mailto:#">behrendt@pr-praxen.de</a>
-      </p>
-      <p>
-      <span class="small">Persönliche Telefonsprechstunde:</span><br>
-        montags von 8.30 h bis 9.00 h
-      </p>
-    </div>
-
-    <div class="team__member">
-      <img src="" alt="">
-      <h2>Dr. med. Kirsten Behrendt</h2>
-      <h4>Ärztin für Psychiatrie und Psychotherapie</h4>
-      <p>
-        <i class="fa fa-phone"></i> 02361-404 98 33 <br>
-        <i class="fa fa-envelope-o"></i> <a href="mailto:#">behrendt@pr-praxen.de</a>
-      </p>
-      <p>
-      <span class="small">Persönliche Telefonsprechstunde:</span><br>
-        montags von 8.30 h bis 9.00 h
-      </p>
-    </div>
-
-    <div class="team__member">
-      <img src="" alt="">
-      <h2>Dr. med. Kirsten Behrendt</h2>
-      <h4>Ärztin für Psychiatrie und Psychotherapie</h4>
-      <p>
-        <i class="fa fa-phone"></i> 02361-404 98 33 <br>
-        <i class="fa fa-envelope-o"></i> <a href="mailto:#">behrendt@pr-praxen.de</a>
-      </p>
-      <p>
-      <span class="small">Persönliche Telefonsprechstunde:</span><br>
-        montags von 8.30 h bis 9.00 h
-      </p>
-    </div>
-
-
-
-
   </section>
-
 
   <section class="offer">
     <div class="offer__inner">
@@ -122,10 +118,7 @@
     </div>
   </section>
 
-
-
   <div id="map"></div>
-
 
   <footer class="footer">
     <div class="footer__row">
@@ -168,9 +161,6 @@
         window.open('https://www.google.de/maps/place/Dr.+Monika+Blank/@51.6118184,7.1937974,18z/data=!4m15!1m9!2m8!1spsychotherapie!3m6!1spsychotherapie!2sAuf+dem+Graben+2,+45657+Recklinghausen!3s0x47b8e340097d7cc7:0xb485e41a78f0d777!4m2!1d7.1948622!2d51.6118717!3m4!1s0x0000000000000000:0x75dbdef5eb54ef16!8m2!3d51.6118721!4d7.1948621', '_blank');
       });
     }
-
-
-
   </script>
 
 
@@ -179,4 +169,3 @@
   </script>
 
 {% endblock %}
-

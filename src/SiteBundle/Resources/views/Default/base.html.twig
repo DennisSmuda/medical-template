@@ -46,16 +46,16 @@
   <h1>Impressum</h1>
   <h3>Anbieter</h3>
   <p>
-    Max Mustermann
-    Musterstraße 12
-    12345 Berlin
+    Psychotherapeutische Praxen <br>
+    Auf dem Graben 2 <br>
+    45657 Recklinghausen
   </p>
   <h3>Kontakt</h3>
   <p>
-    Telefon: 030/12345678 <br>
-    Telefax: 030/12345679 <br>
-    e-Mail: e-Mail@mustermann.de <br>
-    Website: www.mustermann.de
+    Telefon: 02361-4049830 <br>
+    Telefax: 02361-4049831 <br>
+    e-Mail: <a href="mailto:kontakt@pt-praxen.de">kontakt@pt-praxen.de</a> <br>
+    Website: <a href="#"></a>www.pt-praxen.de
   </p>
 
   <br>
@@ -65,11 +65,10 @@
 <div class="remodal-bg"></div>
 
 {% block javascripts %}
-  {% javascripts '@SiteBundle/Resources/public/src/index.js' %}
+  {% javascripts '@SiteBundle/Resources/public/src/browser-bundle.js' %}
   <script src="{{ asset_url }}"></script>
   {% endjavascripts %}
 {% endblock %}
-
 
 </body>
 </html>
